@@ -28,7 +28,7 @@ Make predictions on new input data.
 
 **Installation & Usage**
 1. Clone the Repository:
-[git clone https://github.com/arrmann0/Diabetes-Prediction-SVM.git
+[git clone https://github.com/arrmann9/Diabetes-Prediction-SVM.git
 cd Diabetes-Prediction-SVM]
 
 2. Install Dependencies:
