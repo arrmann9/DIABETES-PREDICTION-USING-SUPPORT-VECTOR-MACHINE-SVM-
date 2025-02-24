@@ -27,6 +27,12 @@ Age
 
 **Project Workflow:**
 * Load and preprocess the dataset using StandardScaler.
+  
+  {**Why Use StandardScaler Here?**
+* Ensures Equal Weighting of Features – Since features like glucose level and BMI have different scales, scaling prevents large-magnitude features from dominating the model.
+* Improves SVM Performance – SVM is sensitive to feature magnitudes, and scaling ensures an optimal hyperplane.
+* Stabilizes Model Convergence – Helps faster and more stable model training by keeping feature values within a similar range.}
+
 * Split data into training (80%) and testing (20%) sets.
 
 **Train an SVM Classifier**
