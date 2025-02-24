@@ -18,6 +18,13 @@ Age
 * Python
 * NumPy, Pandas
 * Scikit-learn (SVM, StandardScaler, Train-Test Split, Accuracy Score)
+  {**Why Use SVM?**
+
+* Effective for Binary Classification – Since the outcome is either diabetic (1) or non-diabetic (0), SVM is well-suited for this type of problem.
+* Works Well on Small to Medium Datasets – The Pima Indians Diabetes Dataset is not huge, and SVM performs well in such cases.
+* Maximizes the Decision Boundary – SVM finds the optimal hyperplane that best separates diabetic and non-diabetic cases, improving classification performance.
+* Robust to High-Dimensional Data – Even if some features don’t contribute much, SVM efficiently handles them by using kernel tricks (though this model uses a linear kernel).
+* Good Performance with Standardization – Since the dataset features have different ranges, using StandardScaler improves SVM’s performance.}
 
 **Project Workflow:**
 * Load and preprocess the dataset using StandardScaler.
